@@ -18,6 +18,7 @@ import org.tanukis.tanuki.parsers.network.WebClient
 import org.tanukis.tanuki.parsers.util.*
 import java.util.*
 
+
 @Suppress("OVERRIDE_DEPRECATION")
 @InternalParsersApi
 public abstract class AbstractMangaParser @InternalParsersApi constructor(
@@ -60,8 +61,7 @@ public abstract class AbstractMangaParser @InternalParsersApi constructor(
 	final override val domain: String
 		get() = config[configKeyDomain]
 
-	@JvmField
-	protected val webClient: WebClient = OkHttpWebClient(context.httpClient, source)
+	protected open val webClient: WebClient = OkHttpWebClient(context.httpClient, source)
 
 	/**
 	 * Search list of manga by specified searchQuery
