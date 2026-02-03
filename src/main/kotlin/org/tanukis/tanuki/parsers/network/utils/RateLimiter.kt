@@ -1,4 +1,4 @@
-package org.dokiteam.doki.parsers.network.utils
+package org.tanukis.tanuki.parsers.network.utils
 
 import okhttp3.Call
 import java.io.IOException
