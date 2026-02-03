@@ -12,6 +12,7 @@ import org.tanukis.tanuki.parsers.InternalParsersApi
 import org.tanukis.tanuki.parsers.exception.ParseException
 import kotlin.contracts.contract
 
+
 public val Element.host: String?
 	get() {
 		val uri = baseUri()
@@ -167,6 +168,7 @@ public fun Element.src(
 		"data-src",
 		"data-cfsrc",
 		"data-original",
+        "data-original-src",
 		"data-cdn",
 		"data-sizes",
 		"data-lazy-src",
