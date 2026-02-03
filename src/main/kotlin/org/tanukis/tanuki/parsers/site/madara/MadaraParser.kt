@@ -1,4 +1,4 @@
-package org.dokiteam.doki.parsers.site.madara
+package org.tanukis.tanuki.parsers.site.madara
 
 import androidx.collection.scatterSetOf
 import kotlinx.coroutines.async
@@ -7,14 +7,14 @@ import org.json.JSONObject
 import org.jsoup.HttpStatusException
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaParserAuthProvider
-import org.dokiteam.doki.parsers.config.ConfigKey
-import org.dokiteam.doki.parsers.core.PagedMangaParser
-import org.dokiteam.doki.parsers.exception.AuthRequiredException
-import org.dokiteam.doki.parsers.exception.ParseException
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.util.*
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaParserAuthProvider
+import org.tanukis.tanuki.parsers.config.ConfigKey
+import org.tanukis.tanuki.parsers.core.PagedMangaParser
+import org.tanukis.tanuki.parsers.exception.AuthRequiredException
+import org.tanukis.tanuki.parsers.exception.ParseException
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.util.*
 import java.net.HttpURLConnection
 import java.text.DateFormat
 import java.text.SimpleDateFormat

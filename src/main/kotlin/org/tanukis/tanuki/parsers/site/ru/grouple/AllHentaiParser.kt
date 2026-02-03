@@ -1,12 +1,12 @@
-package org.dokiteam.doki.parsers.site.ru.grouple
+package org.tanukis.tanuki.parsers.site.ru.grouple
 
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.config.ConfigKey
-import org.dokiteam.doki.parsers.exception.AuthRequiredException
-import org.dokiteam.doki.parsers.model.ContentType
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.util.*
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.config.ConfigKey
+import org.tanukis.tanuki.parsers.exception.AuthRequiredException
+import org.tanukis.tanuki.parsers.model.ContentType
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.util.*
 
 @MangaSourceParser("ALLHENTAI", "AllHentai", "ru", type = ContentType.HENTAI)
 internal class AllHentaiParser(

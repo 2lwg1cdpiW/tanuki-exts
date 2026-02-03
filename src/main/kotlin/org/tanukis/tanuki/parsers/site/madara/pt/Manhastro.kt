@@ -1,19 +1,19 @@
-package org.dokiteam.doki.parsers.site.madara.pt
+package org.tanukis.tanuki.parsers.site.madara.pt
 
 import org.jsoup.nodes.Document
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.Manga
-import org.dokiteam.doki.parsers.model.MangaChapter
-import org.dokiteam.doki.parsers.model.MangaPage
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.madara.MadaraParser
-import org.dokiteam.doki.parsers.util.generateUid
-import org.dokiteam.doki.parsers.util.mapChapters
-import org.dokiteam.doki.parsers.util.parseHtml
-import org.dokiteam.doki.parsers.util.selectFirstOrThrow
-import org.dokiteam.doki.parsers.util.toAbsoluteUrl
-import org.dokiteam.doki.parsers.util.toRelativeUrl
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaChapter
+import org.tanukis.tanuki.parsers.model.MangaPage
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.madara.MadaraParser
+import org.tanukis.tanuki.parsers.util.generateUid
+import org.tanukis.tanuki.parsers.util.mapChapters
+import org.tanukis.tanuki.parsers.util.parseHtml
+import org.tanukis.tanuki.parsers.util.selectFirstOrThrow
+import org.tanukis.tanuki.parsers.util.toAbsoluteUrl
+import org.tanukis.tanuki.parsers.util.toRelativeUrl
 
 @MangaSourceParser("MANHASTRO", "Manhastro", "pt")
 internal class Manhastro(context: MangaLoaderContext) :

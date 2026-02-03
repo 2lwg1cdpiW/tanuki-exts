@@ -1,12 +1,12 @@
-package org.dokiteam.doki.parsers.site.foolslide.en
+package org.tanukis.tanuki.parsers.site.foolslide.en
 
 import kotlinx.coroutines.coroutineScope
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.Manga
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.foolslide.FoolSlideParser
-import org.dokiteam.doki.parsers.util.*
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.foolslide.FoolSlideParser
+import org.tanukis.tanuki.parsers.util.*
 
 @MangaSourceParser("SEINAGI", "Seinagi", "en")
 internal class Seinagi(context: MangaLoaderContext) :

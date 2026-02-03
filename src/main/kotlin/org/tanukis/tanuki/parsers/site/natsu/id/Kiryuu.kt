@@ -1,17 +1,17 @@
-package org.dokiteam.doki.parsers.site.natsu.id
+package org.tanukis.tanuki.parsers.site.natsu.id
 
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.config.ConfigKey
-import org.dokiteam.doki.parsers.model.MangaPage
-import org.dokiteam.doki.parsers.model.MangaChapter
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.natsu.NatsuParser
-import org.dokiteam.doki.parsers.util.generateUid
-import org.dokiteam.doki.parsers.util.parseHtml
-import org.dokiteam.doki.parsers.util.requireSrc
-import org.dokiteam.doki.parsers.util.toAbsoluteUrl
-import org.dokiteam.doki.parsers.util.toRelativeUrl
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.config.ConfigKey
+import org.tanukis.tanuki.parsers.model.MangaPage
+import org.tanukis.tanuki.parsers.model.MangaChapter
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.natsu.NatsuParser
+import org.tanukis.tanuki.parsers.util.generateUid
+import org.tanukis.tanuki.parsers.util.parseHtml
+import org.tanukis.tanuki.parsers.util.requireSrc
+import org.tanukis.tanuki.parsers.util.toAbsoluteUrl
+import org.tanukis.tanuki.parsers.util.toRelativeUrl
 
 @MangaSourceParser("KIRYUU", "Kiryuu", "id")
 internal class Kiryuu(context: MangaLoaderContext) :

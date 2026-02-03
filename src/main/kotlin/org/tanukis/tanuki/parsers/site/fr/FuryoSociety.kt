@@ -1,15 +1,15 @@
-package org.dokiteam.doki.parsers.site.fr
+package org.tanukis.tanuki.parsers.site.fr
 
 import kotlinx.coroutines.coroutineScope
 import org.jsoup.nodes.Document
-import org.dokiteam.doki.parsers.ErrorMessages
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.config.ConfigKey
-import org.dokiteam.doki.parsers.core.SinglePageMangaParser
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.network.UserAgents
-import org.dokiteam.doki.parsers.util.*
+import org.tanukis.tanuki.parsers.ErrorMessages
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.config.ConfigKey
+import org.tanukis.tanuki.parsers.core.SinglePageMangaParser
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.network.UserAgents
+import org.tanukis.tanuki.parsers.util.*
 import java.text.DateFormat
 import java.text.SimpleDateFormat
 import java.util.*

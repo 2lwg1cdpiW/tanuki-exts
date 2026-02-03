@@ -1,11 +1,11 @@
-package org.dokiteam.doki.parsers.site.en
+package org.tanukis.tanuki.parsers.site.en
 
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.config.ConfigKey
-import org.dokiteam.doki.parsers.core.SinglePageMangaParser
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.util.*
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.config.ConfigKey
+import org.tanukis.tanuki.parsers.core.SinglePageMangaParser
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.util.*
 import java.util.*
 
 @MangaSourceParser("READONEPIECE", "ReadOnePiece", "en")

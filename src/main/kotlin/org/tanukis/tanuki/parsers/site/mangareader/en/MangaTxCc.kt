@@ -1,16 +1,16 @@
-package org.dokiteam.doki.parsers.site.mangareader.en
+package org.tanukis.tanuki.parsers.site.mangareader.en
 
 import okhttp3.HttpUrl
 import okhttp3.Interceptor
 import okhttp3.Response
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.Manga
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.mangareader.MangaReaderParser
-import org.dokiteam.doki.parsers.util.LinkResolver
-import org.dokiteam.doki.parsers.util.generateUid
-import org.dokiteam.doki.parsers.util.nullIfEmpty
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.mangareader.MangaReaderParser
+import org.tanukis.tanuki.parsers.util.LinkResolver
+import org.tanukis.tanuki.parsers.util.generateUid
+import org.tanukis.tanuki.parsers.util.nullIfEmpty
 
 @MangaSourceParser("MANGATX_CC", "MangaTx.cc", "en")
 internal class MangaTxCc(context: MangaLoaderContext) :

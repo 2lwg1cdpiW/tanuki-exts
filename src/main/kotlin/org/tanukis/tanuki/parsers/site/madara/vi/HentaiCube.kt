@@ -1,14 +1,14 @@
-package org.dokiteam.doki.parsers.site.madara.vi
+package org.tanukis.tanuki.parsers.site.madara.vi
 
 import org.jsoup.nodes.Element
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.exception.ParseException
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.site.madara.MadaraParser
-import org.dokiteam.doki.parsers.util.*
-import org.dokiteam.doki.parsers.util.suspendlazy.getOrNull
-import org.dokiteam.doki.parsers.util.suspendlazy.suspendLazy
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.exception.ParseException
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.site.madara.MadaraParser
+import org.tanukis.tanuki.parsers.util.*
+import org.tanukis.tanuki.parsers.util.suspendlazy.getOrNull
+import org.tanukis.tanuki.parsers.util.suspendlazy.suspendLazy
 
 // Do not use "hentaicb.sbs" domain, may cause duplicate tags!
 @MangaSourceParser("HENTAICUBE", "CBHentai", "vi", ContentType.HENTAI)

@@ -1,4 +1,4 @@
-package org.dokiteam.doki.parsers.site.galleryadults
+package org.tanukis.tanuki.parsers.site.galleryadults
 
 import androidx.collection.ArraySet
 import kotlinx.coroutines.async
@@ -6,12 +6,12 @@ import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.coroutineScope
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
-import org.dokiteam.doki.parsers.ErrorMessages
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.config.ConfigKey
-import org.dokiteam.doki.parsers.core.PagedMangaParser
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.util.*
+import org.tanukis.tanuki.parsers.ErrorMessages
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.config.ConfigKey
+import org.tanukis.tanuki.parsers.core.PagedMangaParser
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.util.*
 import java.util.*
 
 internal abstract class GalleryAdultsParser(

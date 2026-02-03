@@ -1,22 +1,22 @@
-package org.dokiteam.doki.parsers.site.be
+package org.tanukis.tanuki.parsers.site.be
 
 import androidx.collection.ArraySet
 import org.json.JSONArray
 import org.json.JSONObject
-import org.dokiteam.doki.parsers.Broken
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.config.ConfigKey
-import org.dokiteam.doki.parsers.core.AbstractMangaParser
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.util.generateUid
-import org.dokiteam.doki.parsers.util.getDomain
-import org.dokiteam.doki.parsers.util.json.asTypedList
-import org.dokiteam.doki.parsers.util.json.mapJSON
-import org.dokiteam.doki.parsers.util.json.mapJSONIndexed
-import org.dokiteam.doki.parsers.util.json.mapJSONNotNull
-import org.dokiteam.doki.parsers.util.nullIfEmpty
-import org.dokiteam.doki.parsers.util.toAbsoluteUrl
+import org.tanukis.tanuki.parsers.Broken
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.config.ConfigKey
+import org.tanukis.tanuki.parsers.core.AbstractMangaParser
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.util.generateUid
+import org.tanukis.tanuki.parsers.util.getDomain
+import org.tanukis.tanuki.parsers.util.json.asTypedList
+import org.tanukis.tanuki.parsers.util.json.mapJSON
+import org.tanukis.tanuki.parsers.util.json.mapJSONIndexed
+import org.tanukis.tanuki.parsers.util.json.mapJSONNotNull
+import org.tanukis.tanuki.parsers.util.nullIfEmpty
+import org.tanukis.tanuki.parsers.util.toAbsoluteUrl
 import java.util.*
 
 @Broken

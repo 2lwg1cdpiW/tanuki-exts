@@ -1,13 +1,13 @@
-package org.dokiteam.doki.parsers.site.wpcomics.vi
+package org.tanukis.tanuki.parsers.site.wpcomics.vi
 
 import androidx.collection.ArrayMap
 import kotlinx.coroutines.sync.withLock
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.exception.NotFoundException
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.site.wpcomics.WpComicsParser
-import org.dokiteam.doki.parsers.util.*
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.exception.NotFoundException
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.site.wpcomics.WpComicsParser
+import org.tanukis.tanuki.parsers.util.*
 import java.util.*
 
 @MangaSourceParser("NETTRUYENHE", "NetTruyenHE", "vi")

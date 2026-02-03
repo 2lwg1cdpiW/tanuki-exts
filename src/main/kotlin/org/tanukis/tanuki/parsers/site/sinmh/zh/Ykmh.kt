@@ -1,9 +1,9 @@
-package org.dokiteam.doki.parsers.site.sinmh.zh
+package org.tanukis.tanuki.parsers.site.sinmh.zh
 
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.sinmh.SinmhParser
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.sinmh.SinmhParser
 
 @MangaSourceParser("YKMH", "Ykmh", "zh")
 internal class Ykmh(context: MangaLoaderContext) :

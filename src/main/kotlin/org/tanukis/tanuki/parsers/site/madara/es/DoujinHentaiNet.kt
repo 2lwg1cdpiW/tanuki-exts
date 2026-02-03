@@ -1,13 +1,13 @@
-package org.dokiteam.doki.parsers.site.madara.es
+package org.tanukis.tanuki.parsers.site.madara.es
 
 import kotlinx.coroutines.async
 import kotlinx.coroutines.coroutineScope
 import org.jsoup.nodes.Document
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.site.madara.MadaraParser
-import org.dokiteam.doki.parsers.util.*
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.site.madara.MadaraParser
+import org.tanukis.tanuki.parsers.util.*
 import java.text.SimpleDateFormat
 import java.util.EnumSet
 import java.util.Locale

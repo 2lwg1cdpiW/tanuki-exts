@@ -1,4 +1,4 @@
-package org.dokiteam.doki.parsers.site.all
+package org.tanukis.tanuki.parsers.site.all
 
 import androidx.collection.MutableIntObjectMap
 import okhttp3.HttpUrl.Companion.toHttpUrl
@@ -6,16 +6,16 @@ import okhttp3.Interceptor
 import okhttp3.Response
 import org.jsoup.Jsoup
 import org.jsoup.nodes.Document
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaParserAuthProvider
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.bitmap.Bitmap
-import org.dokiteam.doki.parsers.bitmap.Rect
-import org.dokiteam.doki.parsers.config.ConfigKey
-import org.dokiteam.doki.parsers.core.PagedMangaParser
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.util.*
-import org.dokiteam.doki.parsers.util.suspendlazy.suspendLazy
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaParserAuthProvider
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.bitmap.Bitmap
+import org.tanukis.tanuki.parsers.bitmap.Rect
+import org.tanukis.tanuki.parsers.config.ConfigKey
+import org.tanukis.tanuki.parsers.core.PagedMangaParser
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.util.*
+import org.tanukis.tanuki.parsers.util.suspendlazy.suspendLazy
 import java.util.*
 import javax.crypto.Cipher
 import javax.crypto.spec.SecretKeySpec

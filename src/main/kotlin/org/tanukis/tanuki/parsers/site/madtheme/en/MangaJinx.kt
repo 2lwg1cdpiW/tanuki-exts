@@ -1,12 +1,12 @@
-package org.dokiteam.doki.parsers.site.madtheme.en
+package org.tanukis.tanuki.parsers.site.madtheme.en
 
 import org.jsoup.nodes.Document
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.MangaChapter
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.madtheme.MadthemeParser
-import org.dokiteam.doki.parsers.util.*
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.MangaChapter
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.madtheme.MadthemeParser
+import org.tanukis.tanuki.parsers.util.*
 import java.text.SimpleDateFormat
 
 @MangaSourceParser("MANGAJINX", "MangaJinx", "en")

@@ -1,4 +1,4 @@
-package org.dokiteam.doki.parsers.site.uk
+package org.tanukis.tanuki.parsers.site.uk
 
 import androidx.collection.ArraySet
 import kotlinx.coroutines.async
@@ -7,16 +7,16 @@ import okhttp3.Interceptor
 import okhttp3.Response
 import org.json.JSONArray
 import org.json.JSONObject
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.config.ConfigKey
-import org.dokiteam.doki.parsers.core.AbstractMangaParser
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.util.*
-import org.dokiteam.doki.parsers.util.json.asTypedList
-import org.dokiteam.doki.parsers.util.json.getStringOrNull
-import org.dokiteam.doki.parsers.util.json.mapJSON
-import org.dokiteam.doki.parsers.util.suspendlazy.suspendLazy
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.config.ConfigKey
+import org.tanukis.tanuki.parsers.core.AbstractMangaParser
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.util.*
+import org.tanukis.tanuki.parsers.util.json.asTypedList
+import org.tanukis.tanuki.parsers.util.json.getStringOrNull
+import org.tanukis.tanuki.parsers.util.json.mapJSON
+import org.tanukis.tanuki.parsers.util.suspendlazy.suspendLazy
 import java.text.SimpleDateFormat
 import java.util.*
 

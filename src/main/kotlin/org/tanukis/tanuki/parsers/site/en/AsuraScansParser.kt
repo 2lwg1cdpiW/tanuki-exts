@@ -1,19 +1,19 @@
-package org.dokiteam.doki.parsers.site.en
+package org.tanukis.tanuki.parsers.site.en
 
 import androidx.collection.ArrayMap
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import org.json.JSONObject
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.config.ConfigKey
-import org.dokiteam.doki.parsers.core.PagedMangaParser
-import org.dokiteam.doki.parsers.exception.ParseException
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.util.*
-import org.dokiteam.doki.parsers.util.json.asTypedList
-import org.dokiteam.doki.parsers.util.json.toJSONArrayOrNull
-import org.dokiteam.doki.parsers.util.json.toJSONObjectOrNull
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.config.ConfigKey
+import org.tanukis.tanuki.parsers.core.PagedMangaParser
+import org.tanukis.tanuki.parsers.exception.ParseException
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.util.*
+import org.tanukis.tanuki.parsers.util.json.asTypedList
+import org.tanukis.tanuki.parsers.util.json.toJSONArrayOrNull
+import org.tanukis.tanuki.parsers.util.json.toJSONObjectOrNull
 import java.text.SimpleDateFormat
 import java.util.*
 

@@ -1,9 +1,9 @@
-package org.dokiteam.doki.parsers.site.madara.es
+package org.tanukis.tanuki.parsers.site.madara.es
 
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.madara.MadaraParser
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.madara.MadaraParser
 
 @MangaSourceParser("INFRAFANDUB", "InfraFandub", "es")
 internal class Infrafandub(context: MangaLoaderContext) :

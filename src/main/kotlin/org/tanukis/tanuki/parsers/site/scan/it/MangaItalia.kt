@@ -1,9 +1,9 @@
-package org.dokiteam.doki.parsers.site.scan.it
+package org.tanukis.tanuki.parsers.site.scan.it
 
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.scan.ScanParser
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.scan.ScanParser
 
 @MangaSourceParser("MANGAITALIA", "MangaItalia", "it")
 internal class MangaItalia(context: MangaLoaderContext) :

@@ -1,9 +1,9 @@
-package org.dokiteam.doki.parsers.site.cupfox.de
+package org.tanukis.tanuki.parsers.site.cupfox.de
 
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.cupfox.CupFoxParser
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.cupfox.CupFoxParser
 
 @MangaSourceParser("MANGAHAUS", "MangaHaus", "de")
 internal class MangaHaus(context: MangaLoaderContext) :

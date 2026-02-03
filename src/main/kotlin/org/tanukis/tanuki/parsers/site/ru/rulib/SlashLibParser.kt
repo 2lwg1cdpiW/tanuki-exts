@@ -1,8 +1,8 @@
-package org.dokiteam.doki.parsers.site.ru.rulib
+package org.tanukis.tanuki.parsers.site.ru.rulib
 
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.MangaParserSource
 
 @MangaSourceParser("YAOILIB", "SlashLib", "ru")
 internal class SlashLibParser(context: MangaLoaderContext) : LibSocialParser(

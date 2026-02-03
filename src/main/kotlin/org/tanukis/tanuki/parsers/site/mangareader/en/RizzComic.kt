@@ -1,17 +1,17 @@
-package org.dokiteam.doki.parsers.site.mangareader.en
+package org.tanukis.tanuki.parsers.site.mangareader.en
 
 import androidx.collection.ArrayMap
 import kotlinx.coroutines.sync.withLock
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.site.mangareader.MangaReaderParser
-import org.dokiteam.doki.parsers.util.*
-import org.dokiteam.doki.parsers.util.json.getFloatOrDefault
-import org.dokiteam.doki.parsers.util.json.getStringOrNull
-import org.dokiteam.doki.parsers.util.json.mapJSON
-import org.dokiteam.doki.parsers.util.suspendlazy.suspendLazy
-import org.dokiteam.doki.parsers.Broken
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.site.mangareader.MangaReaderParser
+import org.tanukis.tanuki.parsers.util.*
+import org.tanukis.tanuki.parsers.util.json.getFloatOrDefault
+import org.tanukis.tanuki.parsers.util.json.getStringOrNull
+import org.tanukis.tanuki.parsers.util.json.mapJSON
+import org.tanukis.tanuki.parsers.util.suspendlazy.suspendLazy
+import org.tanukis.tanuki.parsers.Broken
 import java.util.*
 
 @Broken

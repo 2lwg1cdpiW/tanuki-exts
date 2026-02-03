@@ -1,4 +1,4 @@
-package org.dokiteam.doki.parsers.site.all
+package org.tanukis.tanuki.parsers.site.all
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
@@ -7,20 +7,20 @@ import kotlinx.coroutines.coroutineScope
 import okhttp3.HttpUrl
 import org.json.JSONArray
 import org.json.JSONObject
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.config.ConfigKey
-import org.dokiteam.doki.parsers.core.FlexibleMangaParser
-import org.dokiteam.doki.parsers.exception.ParseException
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.model.search.MangaSearchQuery
-import org.dokiteam.doki.parsers.model.search.MangaSearchQueryCapabilities
-import org.dokiteam.doki.parsers.model.search.QueryCriteria.*
-import org.dokiteam.doki.parsers.model.search.SearchCapability
-import org.dokiteam.doki.parsers.model.search.SearchableField
-import org.dokiteam.doki.parsers.model.search.SearchableField.*
-import org.dokiteam.doki.parsers.util.*
-import org.dokiteam.doki.parsers.util.json.*
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.config.ConfigKey
+import org.tanukis.tanuki.parsers.core.FlexibleMangaParser
+import org.tanukis.tanuki.parsers.exception.ParseException
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.model.search.MangaSearchQuery
+import org.tanukis.tanuki.parsers.model.search.MangaSearchQueryCapabilities
+import org.tanukis.tanuki.parsers.model.search.QueryCriteria.*
+import org.tanukis.tanuki.parsers.model.search.SearchCapability
+import org.tanukis.tanuki.parsers.model.search.SearchableField
+import org.tanukis.tanuki.parsers.model.search.SearchableField.*
+import org.tanukis.tanuki.parsers.util.*
+import org.tanukis.tanuki.parsers.util.json.*
 import java.text.SimpleDateFormat
 import java.util.*
 

@@ -1,18 +1,18 @@
-package org.dokiteam.doki.parsers.site.madara.vi
+package org.tanukis.tanuki.parsers.site.madara.vi
 
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.ContentRating
-import org.dokiteam.doki.parsers.model.ContentType
-import org.dokiteam.doki.parsers.model.Manga
-import org.dokiteam.doki.parsers.model.MangaListFilter
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.model.MangaState
-import org.dokiteam.doki.parsers.model.SortOrder
-import org.dokiteam.doki.parsers.site.madara.MadaraParser
-import org.dokiteam.doki.parsers.util.oneOrThrowIfMany
-import org.dokiteam.doki.parsers.util.parseHtml
-import org.dokiteam.doki.parsers.util.urlEncoded
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.ContentRating
+import org.tanukis.tanuki.parsers.model.ContentType
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaListFilter
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.model.MangaState
+import org.tanukis.tanuki.parsers.model.SortOrder
+import org.tanukis.tanuki.parsers.site.madara.MadaraParser
+import org.tanukis.tanuki.parsers.util.oneOrThrowIfMany
+import org.tanukis.tanuki.parsers.util.parseHtml
+import org.tanukis.tanuki.parsers.util.urlEncoded
 
 @MangaSourceParser("HENTAIVNPLUS", "HentaiVN.plus", "vi", ContentType.HENTAI)
 internal class HentaiVnPlus(context: MangaLoaderContext) :

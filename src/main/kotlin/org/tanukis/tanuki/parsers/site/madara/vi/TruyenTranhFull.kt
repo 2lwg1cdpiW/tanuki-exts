@@ -1,9 +1,9 @@
-package org.dokiteam.doki.parsers.site.madara.vi
+package org.tanukis.tanuki.parsers.site.madara.vi
 
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.madara.MadaraParser
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.madara.MadaraParser
 
 @MangaSourceParser("TRUYENTRANHFULL", "Truyện Tranh Full", "vi")
 internal class TruyenTranhFull(context: MangaLoaderContext) :

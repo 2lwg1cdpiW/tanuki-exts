@@ -1,11 +1,11 @@
-package org.dokiteam.doki.parsers.site.mangadventure.en
+package org.tanukis.tanuki.parsers.site.mangadventure.en
 
 import androidx.collection.ArraySet
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.MangaListFilterOptions
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.mangadventure.MangAdventureParser
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.MangaListFilterOptions
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.mangadventure.MangAdventureParser
 
 @MangaSourceParser("ASSORTEDSCANS", "AssortedScans", "en")
 internal class AssortedScans(context: MangaLoaderContext) :

@@ -1,11 +1,11 @@
-package org.dokiteam.doki.parsers.site.hotcomics.en
+package org.tanukis.tanuki.parsers.site.hotcomics.en
 
 import okhttp3.Headers
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.site.hotcomics.HotComicsParser
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.util.*
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.site.hotcomics.HotComicsParser
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.util.*
 import java.text.SimpleDateFormat
 
 @MangaSourceParser("HOTCOMICS", "HotComics", "en")

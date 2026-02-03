@@ -1,13 +1,13 @@
-package org.dokiteam.doki.parsers.site.madara.en
+package org.tanukis.tanuki.parsers.site.madara.en
 
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.ContentType
-import org.dokiteam.doki.parsers.model.MangaChapter
-import org.dokiteam.doki.parsers.model.MangaPage
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.madara.MadaraParser
-import org.dokiteam.doki.parsers.util.*
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.ContentType
+import org.tanukis.tanuki.parsers.model.MangaChapter
+import org.tanukis.tanuki.parsers.model.MangaPage
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.madara.MadaraParser
+import org.tanukis.tanuki.parsers.util.*
 
 @MangaSourceParser("MANHWADEN", "ManhwaDen", "en", ContentType.HENTAI)
 internal class Manhwaden(context: MangaLoaderContext) :

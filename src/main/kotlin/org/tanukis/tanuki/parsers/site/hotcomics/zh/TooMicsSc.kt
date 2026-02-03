@@ -1,9 +1,9 @@
-package org.dokiteam.doki.parsers.site.hotcomics.zh
+package org.tanukis.tanuki.parsers.site.hotcomics.zh
 
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.hotcomics.HotComicsParser
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.hotcomics.HotComicsParser
 
 @MangaSourceParser("TOOMICSSC", "TooMicsSc", "zh")
 internal class TooMicsSc(context: MangaLoaderContext) :

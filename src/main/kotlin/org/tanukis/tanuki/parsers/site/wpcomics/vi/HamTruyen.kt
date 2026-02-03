@@ -1,19 +1,19 @@
-package org.dokiteam.doki.parsers.site.wpcomics.vi
+package org.tanukis.tanuki.parsers.site.wpcomics.vi
 
 import kotlinx.coroutines.async
 import kotlinx.coroutines.coroutineScope
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.Manga
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.model.MangaState
-import org.dokiteam.doki.parsers.model.RATING_UNKNOWN
-import org.dokiteam.doki.parsers.site.wpcomics.WpComicsParser
-import org.dokiteam.doki.parsers.util.mapNotNullToSet
-import org.dokiteam.doki.parsers.util.parseHtml
-import org.dokiteam.doki.parsers.util.textOrNull
-import org.dokiteam.doki.parsers.util.toAbsoluteUrl
-import org.dokiteam.doki.parsers.Broken
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.model.MangaState
+import org.tanukis.tanuki.parsers.model.RATING_UNKNOWN
+import org.tanukis.tanuki.parsers.site.wpcomics.WpComicsParser
+import org.tanukis.tanuki.parsers.util.mapNotNullToSet
+import org.tanukis.tanuki.parsers.util.parseHtml
+import org.tanukis.tanuki.parsers.util.textOrNull
+import org.tanukis.tanuki.parsers.util.toAbsoluteUrl
+import org.tanukis.tanuki.parsers.Broken
 
 @Broken // The website is not responding, it may be closed.
 @MangaSourceParser("HAMTRUYEN", "Ham Truyện", "vi")

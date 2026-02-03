@@ -1,17 +1,17 @@
-package org.dokiteam.doki.parsers.site.manga18.zh
+package org.tanukis.tanuki.parsers.site.manga18.zh
 
 import org.jsoup.nodes.Document
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.ContentType
-import org.dokiteam.doki.parsers.model.MangaChapter
-import org.dokiteam.doki.parsers.model.MangaListFilterOptions
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.manga18.Manga18Parser
-import org.dokiteam.doki.parsers.util.attrAsRelativeUrl
-import org.dokiteam.doki.parsers.util.generateUid
-import org.dokiteam.doki.parsers.util.mapChapters
-import org.dokiteam.doki.parsers.util.selectFirstOrThrow
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.ContentType
+import org.tanukis.tanuki.parsers.model.MangaChapter
+import org.tanukis.tanuki.parsers.model.MangaListFilterOptions
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.manga18.Manga18Parser
+import org.tanukis.tanuki.parsers.util.attrAsRelativeUrl
+import org.tanukis.tanuki.parsers.util.generateUid
+import org.tanukis.tanuki.parsers.util.mapChapters
+import org.tanukis.tanuki.parsers.util.selectFirstOrThrow
 
 @MangaSourceParser("HANMAN18", "Hanman18", "zh", ContentType.HENTAI)
 internal class Hanman18(context: MangaLoaderContext) :

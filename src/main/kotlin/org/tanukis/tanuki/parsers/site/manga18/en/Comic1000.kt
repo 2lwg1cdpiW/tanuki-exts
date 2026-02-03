@@ -1,10 +1,10 @@
-package org.dokiteam.doki.parsers.site.manga18.en
+package org.tanukis.tanuki.parsers.site.manga18.en
 
-import org.dokiteam.doki.parsers.Broken
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.manga18.Manga18Parser
+import org.tanukis.tanuki.parsers.Broken
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.manga18.Manga18Parser
 
 @Broken
 @MangaSourceParser("COMIC1000", "Comic1000", "en")

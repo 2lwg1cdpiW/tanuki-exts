@@ -1,11 +1,11 @@
-package org.dokiteam.doki.parsers.site.iken.en
+package org.tanukis.tanuki.parsers.site.iken.en
 
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.iken.IkenParser
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.util.*
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.iken.IkenParser
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.util.*
 
 @MangaSourceParser("PHILIASCANS", "PhiliaScans", "en")
 internal class PhiliaScans(context: MangaLoaderContext) :

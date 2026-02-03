@@ -1,4 +1,4 @@
-package org.dokiteam.doki.parsers.site.ru
+package org.tanukis.tanuki.parsers.site.ru
 
 import okhttp3.Headers
 import okhttp3.HttpUrl
@@ -7,16 +7,16 @@ import okhttp3.Response
 import okhttp3.internal.closeQuietly
 import org.json.JSONArray
 import org.json.JSONObject
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaParserAuthProvider
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.config.ConfigKey
-import org.dokiteam.doki.parsers.core.PagedMangaParser
-import org.dokiteam.doki.parsers.exception.ContentUnavailableException
-import org.dokiteam.doki.parsers.exception.ParseException
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.util.*
-import org.dokiteam.doki.parsers.util.json.*
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaParserAuthProvider
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.config.ConfigKey
+import org.tanukis.tanuki.parsers.core.PagedMangaParser
+import org.tanukis.tanuki.parsers.exception.ContentUnavailableException
+import org.tanukis.tanuki.parsers.exception.ParseException
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.util.*
+import org.tanukis.tanuki.parsers.util.json.*
 import java.text.DateFormat
 import java.text.SimpleDateFormat
 import java.util.*

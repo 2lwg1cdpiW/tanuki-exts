@@ -1,9 +1,9 @@
-package org.dokiteam.doki.parsers.site.zeistmanga.ar
+package org.tanukis.tanuki.parsers.site.zeistmanga.ar
 
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.zeistmanga.ZeistMangaParser
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.zeistmanga.ZeistMangaParser
 
 @MangaSourceParser("LONERTL", "LonerTranslations", "ar")
 internal class LonerTl(context: MangaLoaderContext) :

@@ -1,4 +1,4 @@
-package org.dokiteam.doki.parsers.site.en
+package org.tanukis.tanuki.parsers.site.en
 
 import androidx.collection.ArraySet
 import kotlinx.coroutines.async
@@ -7,13 +7,13 @@ import kotlinx.coroutines.coroutineScope
 import org.json.JSONArray
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.config.ConfigKey
-import org.dokiteam.doki.parsers.core.PagedMangaParser
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.network.UserAgents
-import org.dokiteam.doki.parsers.util.*
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.config.ConfigKey
+import org.tanukis.tanuki.parsers.core.PagedMangaParser
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.network.UserAgents
+import org.tanukis.tanuki.parsers.util.*
 import java.text.SimpleDateFormat
 import java.util.*
 

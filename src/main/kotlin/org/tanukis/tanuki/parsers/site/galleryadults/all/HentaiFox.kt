@@ -1,12 +1,12 @@
-package org.dokiteam.doki.parsers.site.galleryadults.all
+package org.tanukis.tanuki.parsers.site.galleryadults.all
 
 import org.jsoup.internal.StringUtil
 import org.jsoup.nodes.Element
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.site.galleryadults.GalleryAdultsParser
-import org.dokiteam.doki.parsers.util.*
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.site.galleryadults.GalleryAdultsParser
+import org.tanukis.tanuki.parsers.util.*
 import java.util.*
 
 @MangaSourceParser("HENTAIFOX", "HentaiFox", type = ContentType.HENTAI)

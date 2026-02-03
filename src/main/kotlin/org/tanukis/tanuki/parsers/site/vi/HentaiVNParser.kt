@@ -1,4 +1,4 @@
-package org.dokiteam.doki.parsers.site.vi
+package org.tanukis.tanuki.parsers.site.vi
 
 import androidx.collection.ArrayMap
 import kotlinx.coroutines.async
@@ -7,14 +7,14 @@ import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import org.jsoup.HttpStatusException
 import org.jsoup.nodes.Document
-import org.dokiteam.doki.parsers.Broken
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.config.ConfigKey
-import org.dokiteam.doki.parsers.core.AbstractMangaParser
-import org.dokiteam.doki.parsers.exception.ParseException
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.util.*
+import org.tanukis.tanuki.parsers.Broken
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.config.ConfigKey
+import org.tanukis.tanuki.parsers.core.AbstractMangaParser
+import org.tanukis.tanuki.parsers.exception.ParseException
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.util.*
 import java.net.HttpURLConnection
 import java.text.SimpleDateFormat
 import java.util.*

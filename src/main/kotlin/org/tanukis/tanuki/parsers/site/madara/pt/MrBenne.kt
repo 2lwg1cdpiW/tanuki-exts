@@ -1,14 +1,14 @@
-package org.dokiteam.doki.parsers.site.madara.pt
+package org.tanukis.tanuki.parsers.site.madara.pt
 
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.ContentType
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.model.MangaTag
-import org.dokiteam.doki.parsers.site.madara.MadaraParser
-import org.dokiteam.doki.parsers.util.mapNotNullToSet
-import org.dokiteam.doki.parsers.util.parseHtml
-import org.dokiteam.doki.parsers.util.toTitleCase
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.ContentType
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.model.MangaTag
+import org.tanukis.tanuki.parsers.site.madara.MadaraParser
+import org.tanukis.tanuki.parsers.util.mapNotNullToSet
+import org.tanukis.tanuki.parsers.util.parseHtml
+import org.tanukis.tanuki.parsers.util.toTitleCase
 
 @MangaSourceParser("MRBENNE", "MrBenne", "pt", ContentType.HENTAI)
 internal class MrBenne(context: MangaLoaderContext) :

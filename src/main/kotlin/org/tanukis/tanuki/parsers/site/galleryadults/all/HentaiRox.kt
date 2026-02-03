@@ -1,15 +1,15 @@
-package org.dokiteam.doki.parsers.site.galleryadults.all
+package org.tanukis.tanuki.parsers.site.galleryadults.all
 
 import org.jsoup.nodes.Element
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.ContentType
-import org.dokiteam.doki.parsers.model.MangaListFilterOptions
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.model.MangaTag
-import org.dokiteam.doki.parsers.site.galleryadults.GalleryAdultsParser
-import org.dokiteam.doki.parsers.util.mapToSet
-import org.dokiteam.doki.parsers.util.removeSuffix
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.ContentType
+import org.tanukis.tanuki.parsers.model.MangaListFilterOptions
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.model.MangaTag
+import org.tanukis.tanuki.parsers.site.galleryadults.GalleryAdultsParser
+import org.tanukis.tanuki.parsers.util.mapToSet
+import org.tanukis.tanuki.parsers.util.removeSuffix
 import java.util.*
 
 @MangaSourceParser("HENTAIROX", "HentaiRox", type = ContentType.HENTAI)

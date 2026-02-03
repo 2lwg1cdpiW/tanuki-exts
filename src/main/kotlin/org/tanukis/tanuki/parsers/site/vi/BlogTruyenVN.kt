@@ -1,19 +1,19 @@
-package org.dokiteam.doki.parsers.site.vi
+package org.tanukis.tanuki.parsers.site.vi
 
 import androidx.collection.ArrayMap
 import org.json.JSONArray
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
-import org.dokiteam.doki.parsers.Broken
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.config.ConfigKey
-import org.dokiteam.doki.parsers.core.PagedMangaParser
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.network.UserAgents
-import org.dokiteam.doki.parsers.util.*
-import org.dokiteam.doki.parsers.util.suspendlazy.getOrNull
-import org.dokiteam.doki.parsers.util.suspendlazy.suspendLazy
+import org.tanukis.tanuki.parsers.Broken
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.config.ConfigKey
+import org.tanukis.tanuki.parsers.core.PagedMangaParser
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.network.UserAgents
+import org.tanukis.tanuki.parsers.util.*
+import org.tanukis.tanuki.parsers.util.suspendlazy.getOrNull
+import org.tanukis.tanuki.parsers.util.suspendlazy.suspendLazy
 import java.text.SimpleDateFormat
 import java.util.*
 

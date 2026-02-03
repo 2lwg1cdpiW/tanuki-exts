@@ -1,9 +1,9 @@
-package org.dokiteam.doki.parsers.site.likemanga.en
+package org.tanukis.tanuki.parsers.site.likemanga.en
 
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.likemanga.LikeMangaParser
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.likemanga.LikeMangaParser
 
 @MangaSourceParser("LIKEMANGA", "LikeManga", "en")
 internal class LikeManga(context: MangaLoaderContext) :

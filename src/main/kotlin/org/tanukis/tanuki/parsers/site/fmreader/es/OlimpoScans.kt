@@ -1,10 +1,10 @@
-package org.dokiteam.doki.parsers.site.fmreader.es
+package org.tanukis.tanuki.parsers.site.fmreader.es
 
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.site.fmreader.FmreaderParser
-import org.dokiteam.doki.parsers.util.*
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.site.fmreader.FmreaderParser
+import org.tanukis.tanuki.parsers.util.*
 
 @MangaSourceParser("OLIMPOSCANS", "OlimpoScans", "es")
 internal class OlimpoScans(context: MangaLoaderContext) :

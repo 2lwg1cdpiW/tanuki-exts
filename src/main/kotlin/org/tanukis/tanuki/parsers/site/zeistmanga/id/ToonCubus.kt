@@ -1,14 +1,14 @@
-package org.dokiteam.doki.parsers.site.zeistmanga.id
+package org.tanukis.tanuki.parsers.site.zeistmanga.id
 
 import org.jsoup.nodes.Document
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.ContentType
-import org.dokiteam.doki.parsers.model.MangaChapter
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.model.MangaTag
-import org.dokiteam.doki.parsers.site.zeistmanga.ZeistMangaParser
-import org.dokiteam.doki.parsers.util.*
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.ContentType
+import org.tanukis.tanuki.parsers.model.MangaChapter
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.model.MangaTag
+import org.tanukis.tanuki.parsers.site.zeistmanga.ZeistMangaParser
+import org.tanukis.tanuki.parsers.util.*
 
 @MangaSourceParser("TOONCUBUS", "ToonCubus", "id", ContentType.HENTAI)
 internal class ToonCubus(context: MangaLoaderContext) :

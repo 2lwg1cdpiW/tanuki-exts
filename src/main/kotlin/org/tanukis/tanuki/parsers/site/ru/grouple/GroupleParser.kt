@@ -1,4 +1,4 @@
-package org.dokiteam.doki.parsers.site.ru.grouple
+package org.tanukis.tanuki.parsers.site.ru.grouple
 
 import androidx.collection.MutableScatterMap
 import androidx.collection.ScatterMap
@@ -15,17 +15,17 @@ import okhttp3.internal.closeQuietly
 import okio.IOException
 import org.json.JSONArray
 import org.jsoup.nodes.Element
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaParserAuthProvider
-import org.dokiteam.doki.parsers.config.ConfigKey
-import org.dokiteam.doki.parsers.core.AbstractMangaParser
-import org.dokiteam.doki.parsers.exception.AuthRequiredException
-import org.dokiteam.doki.parsers.exception.ParseException
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.util.*
-import org.dokiteam.doki.parsers.util.json.getStringOrNull
-import org.dokiteam.doki.parsers.util.json.mapJSON
-import org.dokiteam.doki.parsers.util.suspendlazy.suspendLazy
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaParserAuthProvider
+import org.tanukis.tanuki.parsers.config.ConfigKey
+import org.tanukis.tanuki.parsers.core.AbstractMangaParser
+import org.tanukis.tanuki.parsers.exception.AuthRequiredException
+import org.tanukis.tanuki.parsers.exception.ParseException
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.util.*
+import org.tanukis.tanuki.parsers.util.json.getStringOrNull
+import org.tanukis.tanuki.parsers.util.json.mapJSON
+import org.tanukis.tanuki.parsers.util.suspendlazy.suspendLazy
 import java.net.HttpURLConnection
 import java.text.SimpleDateFormat
 import java.util.*

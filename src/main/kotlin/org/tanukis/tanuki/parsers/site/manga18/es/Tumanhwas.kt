@@ -1,10 +1,10 @@
-package org.dokiteam.doki.parsers.site.manga18.es
+package org.tanukis.tanuki.parsers.site.manga18.es
 
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.ContentType
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.manga18.Manga18Parser
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.ContentType
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.manga18.Manga18Parser
 
 @MangaSourceParser("TUMANHWAS", "Tumanhwas", "es", ContentType.HENTAI)
 internal class Tumanhwas(context: MangaLoaderContext) :

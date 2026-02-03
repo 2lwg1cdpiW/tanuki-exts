@@ -1,14 +1,14 @@
-package org.dokiteam.doki.parsers.site.madtheme.en
+package org.tanukis.tanuki.parsers.site.madtheme.en
 
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.MangaChapter
-import org.dokiteam.doki.parsers.model.MangaPage
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.madtheme.MadthemeParser
-import org.dokiteam.doki.parsers.util.toAbsoluteUrl
-import org.dokiteam.doki.parsers.util.generateUid
-import org.dokiteam.doki.parsers.util.parseHtml
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.MangaChapter
+import org.tanukis.tanuki.parsers.model.MangaPage
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.madtheme.MadthemeParser
+import org.tanukis.tanuki.parsers.util.toAbsoluteUrl
+import org.tanukis.tanuki.parsers.util.generateUid
+import org.tanukis.tanuki.parsers.util.parseHtml
 
 @MangaSourceParser("MANGAPUMA", "MangaPuma", "en")
 internal class MangaPuma(context: MangaLoaderContext) :

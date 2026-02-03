@@ -1,13 +1,13 @@
-package org.dokiteam.doki.parsers.site.mangareader.fr
+package org.tanukis.tanuki.parsers.site.mangareader.fr
 
 import org.jsoup.nodes.Document
-import org.dokiteam.doki.parsers.Broken
-import org.dokiteam.doki.parsers.ErrorMessages
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.site.mangareader.MangaReaderParser
-import org.dokiteam.doki.parsers.util.*
+import org.tanukis.tanuki.parsers.Broken
+import org.tanukis.tanuki.parsers.ErrorMessages
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.site.mangareader.MangaReaderParser
+import org.tanukis.tanuki.parsers.util.*
 import java.text.SimpleDateFormat
 
 @Broken

@@ -1,10 +1,10 @@
-package org.dokiteam.doki.parsers.site.madara.fr
+package org.tanukis.tanuki.parsers.site.madara.fr
 
-import org.dokiteam.doki.parsers.Broken
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.site.madara.MadaraParser
+import org.tanukis.tanuki.parsers.Broken
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.site.madara.MadaraParser
 
 @Broken("Blocked by Cloudflare")
 @MangaSourceParser("EPSILONSOFT", "EpsilonSoft", "fr")

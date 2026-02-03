@@ -1,13 +1,13 @@
-package org.dokiteam.doki.parsers.site.keyoapp.en
+package org.tanukis.tanuki.parsers.site.keyoapp.en
 
 import org.jsoup.nodes.Element
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.keyoapp.KeyoappParser
-import org.dokiteam.doki.parsers.util.styleValueOrNull
-import org.dokiteam.doki.parsers.util.cssUrl
-import org.dokiteam.doki.parsers.Broken
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.keyoapp.KeyoappParser
+import org.tanukis.tanuki.parsers.util.styleValueOrNull
+import org.tanukis.tanuki.parsers.util.cssUrl
+import org.tanukis.tanuki.parsers.Broken
 
 @Broken // It seems like the site is dead.
 @MangaSourceParser("AGSCOMICS", "AgsComics", "en")

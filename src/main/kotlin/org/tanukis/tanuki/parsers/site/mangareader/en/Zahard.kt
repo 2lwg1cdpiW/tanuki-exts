@@ -1,13 +1,13 @@
-package org.dokiteam.doki.parsers.site.mangareader.en
+package org.tanukis.tanuki.parsers.site.mangareader.en
 
-import org.dokiteam.doki.parsers.Broken
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.site.mangareader.MangaReaderParser
-import org.dokiteam.doki.parsers.util.oneOrThrowIfMany
-import org.dokiteam.doki.parsers.util.parseHtml
-import org.dokiteam.doki.parsers.util.urlEncoded
+import org.tanukis.tanuki.parsers.Broken
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.site.mangareader.MangaReaderParser
+import org.tanukis.tanuki.parsers.util.oneOrThrowIfMany
+import org.tanukis.tanuki.parsers.util.parseHtml
+import org.tanukis.tanuki.parsers.util.urlEncoded
 import java.util.*
 
 @Broken

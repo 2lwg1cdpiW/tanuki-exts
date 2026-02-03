@@ -1,11 +1,11 @@
-package org.dokiteam.doki.parsers.site.manga18.en
+package org.tanukis.tanuki.parsers.site.manga18.en
 
 import org.jsoup.nodes.Document
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.site.manga18.Manga18Parser
-import org.dokiteam.doki.parsers.util.*
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.site.manga18.Manga18Parser
+import org.tanukis.tanuki.parsers.util.*
 
 @MangaSourceParser("HENTAI3ZCC", "Hentai3z.cc", "en", ContentType.HENTAI)
 internal class Hentai3zCc(context: MangaLoaderContext) :

@@ -1,35 +1,35 @@
-package org.dokiteam.doki.parsers.site.zh
+package org.tanukis.tanuki.parsers.site.zh
 
 import kotlinx.coroutines.CancellationException
 import org.json.JSONArray
 import org.json.JSONObject
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.config.ConfigKey
-import org.dokiteam.doki.parsers.core.PagedMangaParser
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.util.generateUid
-import org.dokiteam.doki.parsers.util.json.mapJSON
-import org.dokiteam.doki.parsers.util.json.mapJSONIndexed
-import org.dokiteam.doki.parsers.util.json.mapJSONNotNull
-import org.dokiteam.doki.parsers.util.toAbsoluteUrl
-import org.dokiteam.doki.parsers.util.parseJson
-import org.dokiteam.doki.parsers.util.getCookies
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.config.ConfigKey
+import org.tanukis.tanuki.parsers.core.PagedMangaParser
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.util.generateUid
+import org.tanukis.tanuki.parsers.util.json.mapJSON
+import org.tanukis.tanuki.parsers.util.json.mapJSONIndexed
+import org.tanukis.tanuki.parsers.util.json.mapJSONNotNull
+import org.tanukis.tanuki.parsers.util.toAbsoluteUrl
+import org.tanukis.tanuki.parsers.util.parseJson
+import org.tanukis.tanuki.parsers.util.getCookies
 import java.util.*
 import okhttp3.Headers
-import org.dokiteam.doki.parsers.network.UserAgents
-import org.dokiteam.doki.parsers.exception.ParseException
-import org.dokiteam.doki.parsers.util.mimeType
-import org.dokiteam.doki.parsers.util.parseRaw
-import org.dokiteam.doki.parsers.util.parseHtml
+import org.tanukis.tanuki.parsers.network.UserAgents
+import org.tanukis.tanuki.parsers.exception.ParseException
+import org.tanukis.tanuki.parsers.util.mimeType
+import org.tanukis.tanuki.parsers.util.parseRaw
+import org.tanukis.tanuki.parsers.util.parseHtml
 import okhttp3.HttpUrl.Companion.toHttpUrl
 import okhttp3.Interceptor
 import okhttp3.Response
 import okhttp3.Request
 import kotlinx.coroutines.delay
-import org.dokiteam.doki.parsers.util.json.mapJSONNotNullToSet
-import org.dokiteam.doki.parsers.util.mapToSet
-import org.dokiteam.doki.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.parsers.util.json.mapJSONNotNullToSet
+import org.tanukis.tanuki.parsers.util.mapToSet
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
 
 @MangaSourceParser("KOMIIC", "Komiic", "zh")
 internal class KomiicParser(context: MangaLoaderContext) :

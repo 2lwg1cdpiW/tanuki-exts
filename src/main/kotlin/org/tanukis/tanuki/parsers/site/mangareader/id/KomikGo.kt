@@ -1,10 +1,10 @@
-package org.dokiteam.doki.parsers.site.mangareader.id
+package org.tanukis.tanuki.parsers.site.mangareader.id
 
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.ContentType
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.mangareader.MangaReaderParser
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.ContentType
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.mangareader.MangaReaderParser
 
 @MangaSourceParser("KOMIKGO", "KomikGo", "id", ContentType.HENTAI)
 internal class KomikGo(context: MangaLoaderContext) :

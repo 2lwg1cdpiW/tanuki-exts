@@ -1,19 +1,19 @@
-package org.dokiteam.doki.parsers.site.ru
+package org.tanukis.tanuki.parsers.site.ru
 
 import androidx.collection.ArrayMap
 import okhttp3.Headers
 import okhttp3.HttpUrl
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.config.ConfigKey
-import org.dokiteam.doki.parsers.core.PagedMangaParser
-import org.dokiteam.doki.parsers.exception.ParseException
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.network.UserAgents
-import org.dokiteam.doki.parsers.util.*
-import org.dokiteam.doki.parsers.util.json.*
-import org.dokiteam.doki.parsers.util.suspendlazy.getOrNull
-import org.dokiteam.doki.parsers.util.suspendlazy.suspendLazy
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.config.ConfigKey
+import org.tanukis.tanuki.parsers.core.PagedMangaParser
+import org.tanukis.tanuki.parsers.exception.ParseException
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.network.UserAgents
+import org.tanukis.tanuki.parsers.util.*
+import org.tanukis.tanuki.parsers.util.json.*
+import org.tanukis.tanuki.parsers.util.suspendlazy.getOrNull
+import org.tanukis.tanuki.parsers.util.suspendlazy.suspendLazy
 import java.util.*
 
 @MangaSourceParser("DESUME", "Desu", "ru")

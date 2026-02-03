@@ -1,11 +1,11 @@
-package org.dokiteam.doki.parsers.site.fuzzydoodle.ar
+package org.tanukis.tanuki.parsers.site.fuzzydoodle.ar
 
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.ContentType
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.model.MangaState
-import org.dokiteam.doki.parsers.site.fuzzydoodle.FuzzyDoodleParser
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.ContentType
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.model.MangaState
+import org.tanukis.tanuki.parsers.site.fuzzydoodle.FuzzyDoodleParser
 import java.util.*
 
 @MangaSourceParser("HENTAISLAYER", "HentaiSlayer", "ar", ContentType.HENTAI)

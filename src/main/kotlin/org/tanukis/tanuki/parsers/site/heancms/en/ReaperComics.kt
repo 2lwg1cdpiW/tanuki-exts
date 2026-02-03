@@ -1,10 +1,10 @@
-package org.dokiteam.doki.parsers.site.heancms.en
+package org.tanukis.tanuki.parsers.site.heancms.en
 
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.site.heancms.HeanCms
-import org.dokiteam.doki.parsers.Broken
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.site.heancms.HeanCms
+import org.tanukis.tanuki.parsers.Broken
 
 @Broken("Closed site")
 @MangaSourceParser("REAPERCOMICS", "ReaperComics", "en")

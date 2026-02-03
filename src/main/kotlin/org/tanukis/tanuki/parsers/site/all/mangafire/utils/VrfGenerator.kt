@@ -1,4 +1,4 @@
-package org.dokiteam.doki.parsers.site.all.mangafire.utils
+package org.tanukis.tanuki.parsers.site.all.mangafire.utils
 
 import java.io.ByteArrayOutputStream
 import java.net.URLEncoder

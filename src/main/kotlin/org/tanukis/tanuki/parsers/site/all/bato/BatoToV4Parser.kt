@@ -1,10 +1,10 @@
-package org.dokiteam.doki.parsers.site.all.bato
+package org.tanukis.tanuki.parsers.site.all.bato
 
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.config.ConfigKey
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.all.BatoParser
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.config.ConfigKey
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.all.BatoParser
 
 @MangaSourceParser("BATOTOV4", "Bato.To v4")
 internal class BatoToV4Parser(context: MangaLoaderContext):

@@ -1,19 +1,19 @@
-package org.dokiteam.doki.parsers.site.mangabox.en
+package org.tanukis.tanuki.parsers.site.mangabox.en
 
 import org.jsoup.nodes.Document
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.config.ConfigKey
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.model.search.MangaSearchQuery
-import org.dokiteam.doki.parsers.model.search.MangaSearchQueryCapabilities
-import org.dokiteam.doki.parsers.model.search.QueryCriteria.Include
-import org.dokiteam.doki.parsers.model.search.QueryCriteria.Match
-import org.dokiteam.doki.parsers.model.search.SearchCapability
-import org.dokiteam.doki.parsers.model.search.SearchableField
-import org.dokiteam.doki.parsers.model.search.SearchableField.*
-import org.dokiteam.doki.parsers.site.mangabox.MangaboxParser
-import org.dokiteam.doki.parsers.util.*
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.config.ConfigKey
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.model.search.MangaSearchQuery
+import org.tanukis.tanuki.parsers.model.search.MangaSearchQueryCapabilities
+import org.tanukis.tanuki.parsers.model.search.QueryCriteria.Include
+import org.tanukis.tanuki.parsers.model.search.QueryCriteria.Match
+import org.tanukis.tanuki.parsers.model.search.SearchCapability
+import org.tanukis.tanuki.parsers.model.search.SearchableField
+import org.tanukis.tanuki.parsers.model.search.SearchableField.*
+import org.tanukis.tanuki.parsers.site.mangabox.MangaboxParser
+import org.tanukis.tanuki.parsers.util.*
 import java.text.SimpleDateFormat
 import java.util.*
 

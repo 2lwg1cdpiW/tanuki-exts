@@ -1,4 +1,4 @@
-package org.dokiteam.doki.parsers.site.mangareader
+package org.tanukis.tanuki.parsers.site.mangareader
 
 import androidx.collection.ArrayMap
 import kotlinx.coroutines.runBlocking
@@ -9,11 +9,11 @@ import okhttp3.HttpUrl.Companion.toHttpUrl
 import okhttp3.internal.closeQuietly
 import org.json.JSONObject
 import org.jsoup.nodes.Document
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.config.ConfigKey
-import org.dokiteam.doki.parsers.core.PagedMangaParser
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.util.*
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.config.ConfigKey
+import org.tanukis.tanuki.parsers.core.PagedMangaParser
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.util.*
 import java.text.SimpleDateFormat
 import java.util.Base64
 import java.util.EnumSet

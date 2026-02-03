@@ -1,9 +1,9 @@
-package org.dokiteam.doki.parsers.site.fmreader.ja
+package org.tanukis.tanuki.parsers.site.fmreader.ja
 
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.fmreader.FmreaderParser
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.fmreader.FmreaderParser
 
 @MangaSourceParser("WELOMA", "Weloma", "ja")
 internal class Weloma(context: MangaLoaderContext) :

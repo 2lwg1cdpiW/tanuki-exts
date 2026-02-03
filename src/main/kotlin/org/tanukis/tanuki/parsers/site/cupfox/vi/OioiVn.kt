@@ -1,10 +1,10 @@
-package org.dokiteam.doki.parsers.site.cupfox.vi
+package org.tanukis.tanuki.parsers.site.cupfox.vi
 
-import org.dokiteam.doki.parsers.Broken
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.cupfox.CupFoxParser
+import org.tanukis.tanuki.parsers.Broken
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.cupfox.CupFoxParser
 
 @Broken
 @MangaSourceParser("OIOIVN", "OioiVn", "vi")

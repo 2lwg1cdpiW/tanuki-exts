@@ -1,14 +1,14 @@
-package org.dokiteam.doki.parsers.site.guya
+package org.tanukis.tanuki.parsers.site.guya
 
 import org.json.JSONObject
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.config.ConfigKey
-import org.dokiteam.doki.parsers.core.SinglePageMangaParser
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.util.generateUid
-import org.dokiteam.doki.parsers.util.parseJson
-import org.dokiteam.doki.parsers.util.removeSuffix
-import org.dokiteam.doki.parsers.util.toAbsoluteUrl
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.config.ConfigKey
+import org.tanukis.tanuki.parsers.core.SinglePageMangaParser
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.util.generateUid
+import org.tanukis.tanuki.parsers.util.parseJson
+import org.tanukis.tanuki.parsers.util.removeSuffix
+import org.tanukis.tanuki.parsers.util.toAbsoluteUrl
 import java.util.*
 
 internal abstract class GuyaParser(

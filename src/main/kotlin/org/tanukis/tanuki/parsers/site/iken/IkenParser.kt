@@ -1,14 +1,14 @@
-package org.dokiteam.doki.parsers.site.iken
+package org.tanukis.tanuki.parsers.site.iken
 
 import org.jsoup.nodes.Document
 import org.json.JSONObject
 import org.json.JSONArray
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.config.ConfigKey
-import org.dokiteam.doki.parsers.core.PagedMangaParser
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.util.*
-import org.dokiteam.doki.parsers.util.json.*
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.config.ConfigKey
+import org.tanukis.tanuki.parsers.core.PagedMangaParser
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.util.*
+import org.tanukis.tanuki.parsers.util.json.*
 import java.text.SimpleDateFormat
 import java.util.*
 

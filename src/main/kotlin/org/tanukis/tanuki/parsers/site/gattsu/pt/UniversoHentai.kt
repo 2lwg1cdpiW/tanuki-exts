@@ -1,11 +1,11 @@
-package org.dokiteam.doki.parsers.site.gattsu.pt
+package org.tanukis.tanuki.parsers.site.gattsu.pt
 
 import org.jsoup.nodes.Element
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.site.gattsu.GattsuParser
-import org.dokiteam.doki.parsers.util.*
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.site.gattsu.GattsuParser
+import org.tanukis.tanuki.parsers.util.*
 
 @MangaSourceParser("UNIVERSOHENTAI", "UniversoHentai", "pt", ContentType.HENTAI)
 internal class UniversoHentai(context: MangaLoaderContext) :

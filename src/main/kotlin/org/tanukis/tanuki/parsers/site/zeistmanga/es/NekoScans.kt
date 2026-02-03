@@ -1,10 +1,10 @@
-package org.dokiteam.doki.parsers.site.zeistmanga.es
+package org.tanukis.tanuki.parsers.site.zeistmanga.es
 
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.zeistmanga.ZeistMangaParser
-import org.dokiteam.doki.parsers.Broken
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.zeistmanga.ZeistMangaParser
+import org.tanukis.tanuki.parsers.Broken
 
 @Broken
 @MangaSourceParser("NEKOSCANS", "NekoScans", "es")

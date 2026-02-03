@@ -1,13 +1,13 @@
-package org.dokiteam.doki.parsers.site.galleryadults.all
+package org.tanukis.tanuki.parsers.site.galleryadults.all
 
-import org.dokiteam.doki.parsers.ErrorMessages
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.site.galleryadults.GalleryAdultsParser
-import org.dokiteam.doki.parsers.util.oneOrThrowIfMany
-import org.dokiteam.doki.parsers.util.parseHtml
-import org.dokiteam.doki.parsers.util.urlEncoded
+import org.tanukis.tanuki.parsers.ErrorMessages
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.site.galleryadults.GalleryAdultsParser
+import org.tanukis.tanuki.parsers.util.oneOrThrowIfMany
+import org.tanukis.tanuki.parsers.util.parseHtml
+import org.tanukis.tanuki.parsers.util.urlEncoded
 import java.util.*
 
 @MangaSourceParser("HENTAIENVY", "HentaiEnvy", type = ContentType.HENTAI)

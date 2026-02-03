@@ -1,12 +1,12 @@
-package org.dokiteam.doki.parsers.site.zeistmanga.pt
+package org.tanukis.tanuki.parsers.site.zeistmanga.pt
 
 import kotlinx.coroutines.async
 import kotlinx.coroutines.coroutineScope
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.site.zeistmanga.ZeistMangaParser
-import org.dokiteam.doki.parsers.util.*
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.site.zeistmanga.ZeistMangaParser
+import org.tanukis.tanuki.parsers.util.*
 
 @MangaSourceParser("TEMAKIMANGAS", "TemakiMangas", "pt")
 internal class TemakiMangas(context: MangaLoaderContext) :

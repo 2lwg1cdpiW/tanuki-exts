@@ -1,11 +1,11 @@
-package org.dokiteam.doki.parsers.site.gallery.all
+package org.tanukis.tanuki.parsers.site.gallery.all
 
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.config.ConfigKey
-import org.dokiteam.doki.parsers.model.ContentType
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.gallery.GalleryParser
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.config.ConfigKey
+import org.tanukis.tanuki.parsers.model.ContentType
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.gallery.GalleryParser
 
 @MangaSourceParser("BUONDUA", "Buon Dua", "vi", type = ContentType.OTHER)
 internal class BuonDua(context: MangaLoaderContext) :

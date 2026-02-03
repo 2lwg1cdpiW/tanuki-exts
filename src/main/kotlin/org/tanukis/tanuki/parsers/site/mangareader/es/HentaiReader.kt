@@ -1,11 +1,11 @@
-package org.dokiteam.doki.parsers.site.mangareader.es
+package org.tanukis.tanuki.parsers.site.mangareader.es
 
 import org.json.JSONObject
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.*
-import org.dokiteam.doki.parsers.site.mangareader.MangaReaderParser
-import org.dokiteam.doki.parsers.util.*
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.*
+import org.tanukis.tanuki.parsers.site.mangareader.MangaReaderParser
+import org.tanukis.tanuki.parsers.util.*
 import java.text.SimpleDateFormat
 
 @MangaSourceParser("HENTAIREADER", "HentaiReader", "es", ContentType.HENTAI)

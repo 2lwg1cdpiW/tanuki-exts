@@ -1,9 +1,9 @@
-package org.dokiteam.doki.parsers.site.pizzareader.fr
+package org.tanukis.tanuki.parsers.site.pizzareader.fr
 
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.pizzareader.PizzaReaderParser
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.pizzareader.PizzaReaderParser
 
 @MangaSourceParser("FMTEAM", "FmTeam", "fr")
 internal class FmTeam(context: MangaLoaderContext) :

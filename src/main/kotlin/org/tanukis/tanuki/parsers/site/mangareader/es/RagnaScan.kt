@@ -1,11 +1,11 @@
-package org.dokiteam.doki.parsers.site.mangareader.es
+package org.tanukis.tanuki.parsers.site.mangareader.es
 
-import org.dokiteam.doki.parsers.Broken
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.MangaListFilterCapabilities
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.site.mangareader.MangaReaderParser
+import org.tanukis.tanuki.parsers.Broken
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.MangaListFilterCapabilities
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.site.mangareader.MangaReaderParser
 
 @Broken
 @MangaSourceParser("RAGNASCAN", "RagnaScan", "es")

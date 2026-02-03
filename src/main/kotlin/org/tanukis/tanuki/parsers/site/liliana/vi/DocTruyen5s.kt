@@ -1,15 +1,15 @@
-package org.dokiteam.doki.parsers.site.liliana.vi
+package org.tanukis.tanuki.parsers.site.liliana.vi
 
 import org.jsoup.Jsoup
-import org.dokiteam.doki.parsers.MangaLoaderContext
-import org.dokiteam.doki.parsers.MangaSourceParser
-import org.dokiteam.doki.parsers.model.MangaChapter
-import org.dokiteam.doki.parsers.model.MangaPage
-import org.dokiteam.doki.parsers.model.MangaParserSource
-import org.dokiteam.doki.parsers.exception.ParseException
-import org.dokiteam.doki.parsers.site.liliana.LilianaParser
-import org.dokiteam.doki.parsers.util.json.getBooleanOrDefault
-import org.dokiteam.doki.parsers.util.*
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.MangaSourceParser
+import org.tanukis.tanuki.parsers.model.MangaChapter
+import org.tanukis.tanuki.parsers.model.MangaPage
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.exception.ParseException
+import org.tanukis.tanuki.parsers.site.liliana.LilianaParser
+import org.tanukis.tanuki.parsers.util.json.getBooleanOrDefault
+import org.tanukis.tanuki.parsers.util.*
 
 @MangaSourceParser("DOCTRUYEN5S", "DocTruyen5s", "vi")
 internal class DocTruyen5s(context: MangaLoaderContext) :
