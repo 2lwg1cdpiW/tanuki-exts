@@ -242,4 +242,103 @@ internal class AsuraScansParser(context: MangaLoaderContext) :
 			)
 		}
 	}
+
+	suspend fun getComments(chapter: MangaChapter): List<MangaComment> {
+		val doc = webClient.httpGet(chapter.url.toAbsoluteUrl(domain)).parseHtml()
+
+		// Try JSON embedded in scripts first
+		val scripts = doc.select("script")
+
+		fun findCommentsArray(obj: JSONObject): org.json.JSONArray? {
+			val keys = obj.keys()
+			while (keys.hasNext()) {
+				val k = keys.next()
+				try {
+					val v = obj.get(k)
+					if (k.contains("comment", ignoreCase = true) && v is org.json.JSONArray) return v
+					if (v is org.json.JSONArray) {
+						// check array items for comment-like fields
+						if (v.length() > 0 && (v.optJSONObject(0)?.has("content") == true || v.optJSONObject(0)?.has("author") == true)) return v
+					}
+					if (v is JSONObject) {
+						findCommentsArray(v)?.let { return it }
+					}
+				} catch (_: Exception) {
+				}
+			}
+			return null
+		}
+
+		for (script in scripts) {
+			val data = script.data()
+			val raw = data.substringBetween("self.__next_f.push(", ")", "").trim()
+			val candidates = mutableListOf<String>()
+			if (raw.isNotEmpty()) candidates.add(raw)
+			// also try entire script block if it contains JSON
+			val firstBrace = data.indexOf('{')
+			val lastBrace = data.lastIndexOf('}')
+			if (firstBrace >= 0 && lastBrace > firstBrace) {
+				candidates.add(data.substring(firstBrace, lastBrace + 1))
+			}
+
+			for (c in candidates) {
+				val jo = c.toJSONObjectOrNull() ?: continue
+				val ja = findCommentsArray(jo) ?: continue
+				val list = mutableListOf<MangaComment>()
+				for (i in 0 until ja.length()) {
+					val el = ja.optJSONObject(i) ?: continue
+					val id = when {
+						el.has("id") -> el.optLong("id")
+						el.has("comment_id") -> el.optLong("comment_id")
+						else -> 0L
+					}
+					val author = when {
+						el.has("author") -> el.optString("author")
+						el.has("username") -> el.optString("username")
+						el.has("name") -> el.optString("name")
+						else -> el.optJSONObject("user")?.optString("name")
+					}
+					val content = el.optString("content", el.optString("body", "")).orEmpty()
+					val timestamp = when {
+						el.has("created_at") -> el.optLong("created_at", 0L)
+						el.has("timestamp") -> el.optLong("timestamp", 0L)
+						else -> 0L
+					}
+					val avatar = el.optString("avatar", el.optJSONObject("user")?.optString("avatar"))
+					val realId = if (id > 0L) id else generateUid("${chapter.id}:comment:$i")
+					list += MangaComment(
+						id = realId,
+						author = author,
+						content = content,
+						timestamp = timestamp,
+						avatarUrl = avatar.takeIf { it?.isNotEmpty() == true },
+						source = source,
+					)
+				}
+				if (list.isNotEmpty()) return list
+			}
+		}
+
+		// Fallback: parse comment-like HTML blocks
+		val htmlComments = doc.select(".comment, .comment-item, .comment-card, .comment-list li")
+		if (htmlComments.isNotEmpty()) {
+			return htmlComments.mapIndexed { idx, el ->
+				val author = el.selectFirst(".author, .username, .name")?.text().orEmpty()
+				val content = el.selectFirst(".content, .comment-body, p")?.html() ?: el.text()
+				val timeAttr = el.selectFirst("time")?.attr("datetime")
+				val timestamp = try { timeAttr?.let { java.time.Instant.parse(it).toEpochMilli() } ?: 0L } catch (_: Exception) { 0L }
+				val id = el.attr("data-id").toLongOrNull() ?: generateUid("${chapter.id}:htmlcomment:$idx")
+				MangaComment(
+					id = id,
+					author = author.takeIf { it.isNotEmpty() },
+					content = content,
+					timestamp = timestamp,
+					avatarUrl = el.selectFirst("img, .avatar")?.attr("src"),
+					source = source,
+				)
+			}
+		}
+
+		return emptyList()
+	}
 }
